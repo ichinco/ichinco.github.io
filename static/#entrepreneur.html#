@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Denise Ichinco</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:700,900'
+	  rel='stylesheet' type='text/css'>
+    <link href='denise.css' rel='stylesheet' type='text/css'>
+  </head>
+  <div>
+    I do my best work when I'm using analytics to figure out what the
+    problem is building technology to solve that problem. If you have
+    a project that you think I'm a good match for,
+    please <a href="contact.html">contact me</a>.
+  </div>
+</html>
