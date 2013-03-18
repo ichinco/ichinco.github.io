@@ -1,26 +1,28 @@
 h1 { font-family: 'Lato', Arial, sans-serif; 
      font-weight: 700;
      font-size: 42px;
-     margin-left: 10px;
+     max-width : 800px;
+     margin-left: auto;
+     margin-right: auto;
 }
 
 a { font-family: 'Lato', Arial, sans-serif; 
-    font-weight: 700;
+    font-weight: 400;
     font-size: 22px;
     text-decoration: none;
     color: #28f;
     margin-left: 2px;
     margin-right: 2px;
 }
-div { font-family: 'Lato', Arial, sans-serif; 
-     font-weight: 700;
+div.content { font-family: 'Lato', Arial, sans-serif; 
+     font-weight: 400;
      font-size: 18px;
      line-height: 170%;
      margin-top: 20px;
-     margin-bottom: 100px;
-     max-width: 1000px;
-     margin-left : 30px;
-     margin-right: 30px;
+     margin-bottom: 20px;
+     max-width: 800px;
+     margin-left : auto;
+     margin-right: auto;
 }
 
 img{
@@ -37,18 +39,18 @@ a.small {
 .footer{
     position : fixed;
     bottom : 0px;
-    height : 70%;
+    height : 80%;
     width : 100%;
     margin : 0px 0px;
-    z-index: -1;
 }
 
 .footer-img {
     height : 100%;
+    width : 100%;
     background-image: url("images/denise.png");
     background-repeat: no-repeat;
     background-size: auto 100%;
-    margin-left: 50%;
+    margin-left: 55%;
     margin-top: 0px;
     margin-bottom : 0px;
 }
@@ -56,8 +58,15 @@ a.small {
 .intro {
     position: absolute;
     max-width : 400px;
-    left : 10%;
-    top : 30%;
+    left : 15%;
+    top : 10%;
+    font-size : 28px;
+    font-family: 'Lato', Arial, sans-serif; 
+    line-height: 170%;
+}
+
+.intro a {
+    font-size : 30px;
 }
 
 .icons {
@@ -69,22 +78,22 @@ a.small {
 }
 
 .resume {
-    background-position: 0px 8px;
+    background-position: 0px 0px;
 }
 
 .contact {
-    background-position: 0px -50px;
+    background-position: 0px -52px;
 }
 
 .code {
-    background-position: 0px -206px;
+    background-position: 0px -210px;
 }
 
 .icon {
     background-image: url("images/icons_v.png");
     background-repeat: no-repeat;
     width:41px;
-    height: 55px;
+    height: 41px;
     overflow:hidden;
     margin: 0px 0px;
 }
@@ -92,20 +101,21 @@ a.small {
 .description, .link {
     display: inline-block;
     vertical-align: middle;
-    height: 55px;
+    height: 41px;
     margin: 0px 0px;
     margin-left: 10px;
-    line-height: 55px;
+    line-height: 41px;
 }
 
 .group {
-    margin: 0px 0px;
+    margin: 5px 0px;
 }
 
 .description {
     display : none;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 20px;
+    color: #25f;
 }
 
 .group:hover > .description {
