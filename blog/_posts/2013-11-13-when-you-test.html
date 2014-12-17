@@ -1,0 +1,25 @@
+---
+layout: post
+title: Why it matters at what point you test
+---
+<p>
+The last two teams I've worked on have operated the same way. Sprint, engineers work as hard as they can, commit a bunch of features. It's over, everyone celebrates! Then QA begins to test. They find bug after bug and the release date recedes into the distance as engineers commit a series of last minute fixes that have to be fixed. Other luckier engineers proceed to develop new features in a different branch, and then code changes have to merge back and forth between the branches. Product gets impatient for the release, insisting that emergency features be implemented to go into this release, because who knows when the next one will be!
+</p>
+
+<p>
+I thought: there's got to be another way. How could all of the "agile" practitioners survive if the bugs of one sprint were constantly leaking into the subsequent sprint? Why don't they all jump ship?
+</p>
+
+<p>
+It turns out that if you move the bulk of your testing for a particular feature to the point before it gets merged into the main branch ready for release, the dynamics of the system change entirely. Now, when QA is testing a feature, they are determining if that one individual feature is ready to be released. If the release date arrives and the feature is not completed to everyone's satisfaction, the remainder of the release can continue. The engineer involved can continue working on the incomplete feature in the next sprint. Any new "emergency" features can be prioritized as usual during the next sprint, since everyone is confident that the next release will happen on the planned day.
+</p>
+
+<p>
+Best of all, everyone is calmer. No one has to rush around fixing bugs because they're delaying the entire train. No one stays up the entire night testing and retesting the fixes. Everyone is confident enough in the schedule that features don't become emergencies.
+</p>
+<p>
+So it seems like the happiness and success of your team depends on whether you QA features before they've been merged to release.* It's a key factor in whether the team flounders or hums along like a well oiled machine.
+</p>
+<p>
+* (Of course, this also makes it obvious why automated tests are so important. It is expensive to do a full human QA run for each feature. But there seems to be no substitute for human checking for a large feature or refactor.)
+</p>

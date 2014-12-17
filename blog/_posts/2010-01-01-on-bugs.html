@@ -1,0 +1,24 @@
+---
+layout: post
+title: on bugs that make it all the way
+---
+<p>
+Don't be too quick to declare that something is "done." It might be mostly done, all the major functionality is there... but take a little extra time and polish it and make sure that it's done right.
+</p>
+
+<p>
+Some preliminary criteria for things that are "done right":
+<ul>
+<li>handle lots of likely errors gracefully</li>
+<li>are fully integrated with the build system</li>
+<li>have been tested, edge cases fleshed out, preferably in something automated</li>
+</ul>
+</p>
+
+<p>
+Pay careful attention to any differences between how you're testing the software (or how other people will test the software) and how the software will be used in production.
+</p>
+
+<p>
+Do not assume that two similar scenarios are equivalent. If there's a difference between them, test them both.
+</p>

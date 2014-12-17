@@ -1,9 +1,43 @@
 h1 { font-family: 'Lato', Arial, sans-serif; 
      font-weight: 700;
      font-size: 42px;
-     max-width : 800px;
      margin-left: auto;
      margin-right: auto;
+}
+
+h1.wallpaper {
+    background: center center fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size:cover;
+    padding: 20% 0;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px #333;
+    -moz-text-shadow: 1px 1px 2px #333;
+}
+
+h1.wallpaper.stm-eng {
+    background-image: url(images/smarter.JPG);
+}
+
+h1.wallpaper.quickhit {
+    background-image: url(images/quickhit.jpg);
+}
+
+h1.wallpaper.cogsci {
+    background-image: url(images/mit2.jpg);
+}
+
+h1.wallpaper.sailing {
+    background-image: url(images/sailing.jpg);
+}
+
+h1.wallpaper.mit {
+	background-image: url(images/mit.png);
+}
+
+h1.wallpaper.ukulele {
+    background-image: url(images/ukulele.jpg);
 }
 
 a { font-family: 'Lato', Arial, sans-serif; 
@@ -41,7 +75,7 @@ a.small {
     bottom : 0px;
     height : 80%;
     width : 100%;
-    margin : 0px 0px;
+    margin : 0px 50px;
 }
 
 .footer-img {
@@ -89,6 +123,10 @@ a.small {
     background-position: 0px -210px;
 }
 
+.blog {
+    background-position: 0px -156px;
+}
+
 .icon {
     background-image: url("images/icons_v.png");
     background-repeat: no-repeat;
@@ -99,6 +137,7 @@ a.small {
 }
 
 .description, .link {
+    font-family: 'Lato', Arial, sans-serif; 
     display: inline-block;
     vertical-align: middle;
     height: 41px;

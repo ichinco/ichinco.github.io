@@ -1,0 +1,20 @@
+# Site settings
+title: Apparently I'm not
+email: ichinco@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I don't know what I'm doing yet, but I'm paying close attention
+  and taking notes here. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.ichinco.com" # the base hostname & protocol for your site
+twitter_username: ichinco
+github_username:  ichinco
+
+# Build settings
+markdown: kramdown
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+auto: true # automatically update your jekyll
+server: true # runs a local server
+paginate: 10 # pagination basted on number of posts
+exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
+
