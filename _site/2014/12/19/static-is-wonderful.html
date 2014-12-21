@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title> When to choose static  - Apparently I'm not</title>
+		<!-- For responsive site
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="author" href="/humans.txt">
+		<meta name="description" content="Description Goes Here">
+		<link rel="stylesheet" href="/css/style.css">
+		<!--[if IE 7]>
+			<html class="ie7"> 
+			<link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css">
+		<![endif]-->
+		<!--[if IE 8]><html class="ie8"> <![endif]-->		
+	    <!--[if lt IE 9]>
+	      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <![endif]-->
+
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="ico/favicon.png">	    
+	</head>
+	<body>
+	<!-- Header
+	    ================================================== -->
+	<header>
+
+	</header>
+
+	<div class="top-strip"></div>
+<main class="content">
+    <section class="container">
+    	<div class="row-fluid">
+    		<article class="home-icon">
+				<a href="/">
+					<i class="icon-home"></i> 
+				</a>
+			</article>
+			<article class="post">
+				<h5>19 December 2014</h5>
+				<h2 class="content">When to choose static</h2>
+				<section>
+					<p>
+I don't think we pause to think about whether we need dynamic pages enough
+before we decide to build them. Dynamic content, for the purposes of this 
+discussion, requires a server actively running code, which generates each
+page on the fly. Static pages require a server which accesses memory to 
+deliver the same result every time.
+</p>
+
+<p>
+Generating dynamic pages is slower and often introduces two additional points
+of failure in your application: the server and the database. Compared to 
+static hosting, it is more expensive. Unlike known static content, dynamic 
+content cannot take advantage of efficient edge caching that makes the web
+fast.
+</p>
+
+<p>
+<a href="http://www.jekyllrb.com">Jekyll</a> provides a static solution
+for blogs. While it does require technical skills to use, it allows you to
+take advantage of the natural cadence of blogging: the site only changes
+when I change it, so why should we pretend that it might have changed every 
+time a user asks to see it? (We can handle comments using an external 
+provider like disqus). The great thing about it is that you can use all
+of the tools you've grown accustomed to for building dynamic sites, including 
+templating engines and sass. Then a simple compile step produces your static
+site which is ready for upload to any hosting service. 
+</p>
+
+<p>
+The only downside, as I alluded to before, is that it is relatively hard to
+use for a non-techincial blogger. You would need to be familiar with ruby and
+ruby gems and comfortable working on the commandline to resolve issues. 
+You'll need to put everything in its specific folder in a specific file format,
+so I hope you were paying attention. And, while there are dozens of jekyll 
+themes, any customization would require digging into the root html.
+</p>
+
+<p>
+That being said, it should be fairly straightforward for anyone who has
+built a rudimentary website before. It's relatively obvious how to use 
+layouts to make your code more modular, and how to create header and footer
+files to further break out chunks of html. 
+</p>
+
+<p>
+I think jekyll is an impressive bit of technology in itself, but also for
+the philosophy it brings to developing a website. It encourages us to think
+before we start coding. Do we need a database? How simple can we make this
+page? Because if we can make it really simple, we can make a faster, more
+available page for much, much cheaper.
+</p>
+
+					<hr>
+				</section>
+				<section style="font-weight:bold; margin-bottom: 2em;">
+					 
+							<a rel="prev" class="a-hover"href="/2014/03/04/a-b-testing-hill-climb.html"><i class="icon-double-angle-left"></i> When A/B Testing steers you wrong</a>
+						
+						
+				</section>
+			</article>
+		</div>
+	</section>
+</main>
+
+
+	<footer>
+		<div class="container">
+			<a href="http://www.ichinco.com">Denise Ichinco</a> | 2014
+		</div>
+	</footer>
+
+	<!-- Footer
+	    ================================================== -->
+
+	<!-- Javascripts 
+	    ================================================= -->
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/custom.js"></script>
+
+    <!-- Analytics
+    ================================================== -->
+    <script>
+		// analytics code
+    </script>	
+	</body>
+</html>

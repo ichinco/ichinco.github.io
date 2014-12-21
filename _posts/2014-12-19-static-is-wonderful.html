@@ -1,0 +1,56 @@
+---
+layout: post
+title: When to choose static
+---
+
+<p>
+I don't think we pause to think about whether we need dynamic pages enough
+before we decide to build them. Dynamic content, for the purposes of this 
+discussion, requires a server actively running code, which generates each
+page on the fly. Static pages require a server which accesses memory to 
+deliver the same result every time.
+</p>
+
+<p>
+Generating dynamic pages is slower and often introduces two additional points
+of failure in your application: the server and the database. Compared to 
+static hosting, it is more expensive. Unlike known static content, dynamic 
+content cannot take advantage of efficient edge caching that makes the web
+fast.
+</p>
+
+<p>
+<a href="http://www.jekyllrb.com">Jekyll</a> provides a static solution
+for blogs. While it does require technical skills to use, it allows you to
+take advantage of the natural cadence of blogging: the site only changes
+when I change it, so why should we pretend that it might have changed every 
+time a user asks to see it? (We can handle comments using an external 
+provider like disqus). The great thing about it is that you can use all
+of the tools you've grown accustomed to for building dynamic sites, including 
+templating engines and sass. Then a simple compile step produces your static
+site which is ready for upload to any hosting service. 
+</p>
+
+<p>
+The only downside, as I alluded to before, is that it is relatively hard to
+use for a non-techincial blogger. You would need to be familiar with ruby and
+ruby gems and comfortable working on the commandline to resolve issues. 
+You'll need to put everything in its specific folder in a specific file format,
+so I hope you were paying attention. And, while there are dozens of jekyll 
+themes, any customization would require digging into the root html.
+</p>
+
+<p>
+That being said, it should be fairly straightforward for anyone who has
+built a rudimentary website before. It's relatively obvious how to use 
+layouts to make your code more modular, and how to create header and footer
+files to further break out chunks of html. 
+</p>
+
+<p>
+I think jekyll is an impressive bit of technology in itself, but also for
+the philosophy it brings to developing a website. It encourages us to think
+before we start coding. Do we need a database? How simple can we make this
+page? Because if we can make it really simple, we can make a faster, more
+available page for much, much cheaper.
+</p>

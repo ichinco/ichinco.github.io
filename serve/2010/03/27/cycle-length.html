@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title> reflections on cycle length  - Apparently I'm not</title>
+		<!-- For responsive site
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="author" href="/humans.txt">
+		<meta name="description" content="Description Goes Here">
+		<link rel="stylesheet" href="/css/style.css">
+		<!--[if IE 7]>
+			<html class="ie7"> 
+			<link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css">
+		<![endif]-->
+		<!--[if IE 8]><html class="ie8"> <![endif]-->		
+	    <!--[if lt IE 9]>
+	      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <![endif]-->
+
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="ico/favicon.png">	    
+	</head>
+	<body>
+	<!-- Header
+	    ================================================== -->
+	<header>
+
+	</header>
+
+	<div class="top-strip"></div>
+<main class="content">
+    <section class="container">
+    	<div class="row-fluid">
+    		<article class="home-icon">
+				<a href="/">
+					<i class="icon-home"></i> 
+				</a>
+			</article>
+			<article class="post">
+				<h5>27 March 2010</h5>
+				<h2 class="content">reflections on cycle length</h2>
+				<section>
+					<p>
+People use a lot of different names for "cycles"-- milestones, deadlines, releases... and there are a lot of opinions on the ideal length of a cycle. Short cycles (~2 weeks) are good for some reasons. Fewer features have been added/changed, so it's easier to QA and to debug. The nearer the deadline, the more accurate you can be in planning, and so the more likely you are to hit it. You use shorter cycles for the same reason you do continuous integration: you just catch stuff quicker, and when you do, it's easier to narrow down what's going on.
+</p>
+
+<p>
+Longer cycles (~4 weeks) are good for other reasons. If the deployment process is particularly long/painful, you minimize the amount of time you waste doing it. Some features are too long to fit in a 2 week cycle, and there may not even be anything meaningful to deliver after 2 weeks. (I'm speculating about that one.)
+</p>
+
+<p>
+Even though I've only been working for... 9 months now... I've seen both of these used, even though I've only directly partipated in the long cycles. We started out with long cycles, then I switched to a different project with long cycles, and the first project went to short cycles. Here are my observations:
+</p>
+
+<p>
+Short cycles expose inefficiencies in the process that surrounds the team. First, consider the long cycle, in which you are to deliver 2 features. At the end of feature 1, it is decided that it should be changed, and you should redo it. There's still a lot of time in the cycle, so it is decided that you can make-up the time somehow. But, when it comes time to deliver the milestone, you are late and feature-incomplete, and no one remembers the feature change at the end of week#2. Now Imagine this: you have exactly 2 weeks of work planned out for every member of your team. After 1.75 weeks, they are exactly on target. Then it is decided that the feature should be changed in some way, and will take .25 weeks to implement. Now, I don't want to address the different ways that this could be handled, but, in a 2 week cycle, the reason for the late delivery/missed features would be more obvious, and there's a clear communication channel for delivering that information. You can fix this in a long cycle by keeping a very clear accounting of everyone's time. So when it is asked, "why were we late?", you can specify the amount of time that was wasted on feature changes. 
+</p>
+
+<p>
+Each cycle is stressful in its own way. Long cycles are stressful because, when you get to the end, there is more "crunch": you have to make up for that time during the milestone when you thought you were on target, but you actually weren't. There's also the stress of deploying something that hasn't been formally deployed/tested in a long time, so it's bugger, and there are more errors, and it takes longer to find those errors. A two week cycle is tighter, so you have to be more on-task at any given moment. There is no time to slack off, but there's also much less crunch time. One way to adjust for the difficulty of hitting a longer date is to schedule tasks for only (date - 1 week) time. That way, you have one week extra to finish up whatever didn't make it, which is generally enough (as long as there are no changes!)
+</p>
+
+<p>
+Anyway, the point is not to pick which one, but to point out some of the differences between them, and maybe to suggest that you could have some of the benefits of a short cycle in a long cycle if you were so inclined.
+</p>
+
+					<hr>
+				</section>
+				<section style="font-weight:bold; margin-bottom: 2em;">
+					 
+							<a rel="prev" class="a-hover"href="/2010/02/11/think-positive.html"><i class="icon-double-angle-left"></i> think positive</a>
+						
+						 
+							<a rel="next" style="float:right" class="a-hover"href="/2010/05/06/a-tale-of-two-bugs.html">a tale of two bugs <i class=" icon-double-angle-right"></i></a>
+					
+				</section>
+			</article>
+		</div>
+	</section>
+</main>
+
+
+	<footer>
+		<div class="container">
+			<a href="http://www.ichinco.com">Denise Ichinco</a> | 2014
+		</div>
+	</footer>
+
+	<!-- Footer
+	    ================================================== -->
+
+	<!-- Javascripts 
+	    ================================================= -->
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/custom.js"></script>
+
+    <!-- Analytics
+    ================================================== -->
+    <script>
+		// analytics code
+    </script>	
+	</body>
+</html>
