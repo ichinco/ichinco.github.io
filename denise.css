@@ -16,6 +16,14 @@ h1.wallpaper {
     -moz-text-shadow: 1px 1px 2px #333;
 }
 
+h1.wallpaper.nara-eng {
+    background-image: url(images/nara2.jpg);
+}
+
+h1.wallpaper.nara-sci {
+    background-image: url(images/nara1.jpg);
+}
+
 h1.wallpaper.stm-eng {
     background-image: url(images/smarter.JPG);
 }
