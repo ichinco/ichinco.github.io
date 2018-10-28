@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <title>Denise Ichinco</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900'
+	  rel='stylesheet' type='text/css'>
+    <link href='denise.css' rel='stylesheet' type='text/css'>
+    <link rel="canonical" href="http://www.deniseichinco.com/engineer.html" />
+    <link rel="icon" 
+	  type="image/png" 
+	  href="favicon.ico" />
+  </head>
+
+  <h1 class="wallpaper stm-eng">SmarterTravel Media</h1>
+  <div class="content">
+    In addition to my <a href="scientist.html">analytics</a> role, I
+    also build the software that aggregates the data into reports and
+    communicates with the partners (ie, Google or MSN) to make bidding
+    strategy changes. My focuses have been improving the performance
+    of automated jobs, increasing the useability of the tools, and
+    improving access to data via self-service reporting.
+
+    <p>The performance of the tools, in terms of both time spent and
+    memory useage, is an everpresent focus when hundreds of thousands
+    of keywords are added each day to a system that already makes tens
+    of millions of bids. I've identified several areas where
+    performance improvements needed to be made, including:</p>
+
+    <ul>
+      <li>reducing the memory useage of the bidding job by working
+      around the need to load data upfront and ensuring that the data
+      could be garbage collected when it was no longer needed</li>
+      <li>rewrote job to sync ensure consistancy between our data and
+      our partners to reduce the number of database calls; after
+      rewrite, the job took less than an hour (where it had taken
+      weeks)</li>
+      <li>refactored main daily import job to be more reliable</li>
+      <li>parallelized numerous api jobs</li>
+    </ul>
+
+    <p>Whenever I work on an internal tool, my priority is always to get
+    feedback from the end users. I like to ask questions about how
+    people plan to use the thing I'm building, build something rough,
+    and use that to continue the discussion of what the final product
+    should look like. At SmarterTravel, I built several new tools and
+    refactored dozens of old ones to incorporate ideas for new
+    functionality or eliminate pain points for our internal users.</p>
+
+    <p>I fundamentally believe that fast access to data is the key to
+    success of any part of any business. Engineers are busy and often
+    "priorities" lie elsewhere, so the best data is data that can be
+    accessed without help. At SmarterTravel, I was able to build a
+    SqlServer Analysis Services Cube which was able to replace most of
+    our canned reports as well as enable much more data exploration. I
+    also helped analysts proactively expand their knowledge of SQL
+    which enabled them to dig even deeper into the data.</p>
+  </div>
+  <h1 class="wallpaper quickhit">
+    QuickHit Football
+  </h1>
+  <div class="content">
+    <p>
+    My main accomplishment was to develop a 3D client for their
+    flagship online football game on an aggressive schedule. I
+    replicated the structure for connecting to the server and
+    developed the infrastructure for displaying the UI and controlling
+    the game state. I gave a talk at Unite 2010 about some of the
+    problems (and solutions) we encountered integrating the game into
+    the web, including many of the networking issues we encountered.
+    </p>
+
+    <p>
+      Behind the scenes, there was quite a bit of work to be done to
+      develop and automate the internal pipelines that produced the
+      graphical assets for the game. Some parts of the pipeline
+      integrated directly with 3DSMax, others automatically produced
+      enums for inclusion in the code base. 
+    </p>
+
+  </div>
+
+  <h1 class="wallpaper mit">Massachusetts Institute of Technology
+  </h1>
+  <div class="content">
+    Coursework
+    included <a href="http://student.mit.edu/catalog/m6a.html#6.005">Software
+    Development</a>, <a href="http://student.mit.edu/catalog/m6a.html#6.006">Algorithms</a>,
+    <a href="http://student.mit.edu/catalog/m6c.html#6.813">User
+    Interface
+    Design</a>, <a href="http://student.mit.edu/catalog/m6c.html#6.804">Computational
+    Cognitive
+    Science</a>, <a href="http://student.mit.edu/catalog/m6a.html#6.034">Artificial
+    Intelligence</a>, <a href="http://student.mit.edu/catalog/m6a.html#6.002">Circuits
+    and
+    Electronics</a>, <a href="http://student.mit.edu/catalog/m6a.html#6.042">Discrete Math</a>
+  </div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38750973-1']);
+  _gaq.push(['_setDomainName', 'ichinco.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>
